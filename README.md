@@ -1,131 +1,377 @@
-📊 Business Intelligence Engineer Project: Student Enrollment & Satisfaction Analysis
+# Optimising Student Satisfaction Through Decision Intelligence
 
-Author: Lamia Ghozy
+### AWS QuickSight Business Intelligence Case Study
 
-🚀 Project Overview
+**Industry:** Higher Education
+**Focus:** Business Intelligence • Decision Intelligence • Executive Analytics • Cost Efficiency
 
-This project leverages AWS QuickSight to analyse student enrollment and satisfaction data for a regional community college. The objective was to identify the key drivers behind professor evaluation scores, track improvements over time, and recommend cost-effective strategies to improve student satisfaction without increasing course expenses.
+---
 
-The work simulates a real-world BI consulting project, combining data modelling, dashboard development, scenario-based analysis, and data storytelling to deliver actionable recommendations.
+## Project Overview
 
-**Full Project Files**
+This case study demonstrates how Business Intelligence and Decision Intelligence can be applied to support leadership decisions around student evaluation outcomes, professor performance, and course cost efficiency.
 
-You can access the complete Business Intelligence Engineer Project – Regional Community College Student Enrollment Data in multiple formats:
+Using **AWS QuickSight**, the project transformed student enrollment, course, professor, evaluation, and cost data into an integrated analytical environment combining:
 
-- [Full Project (Word)] ([link-to-word-file](https://docs.google.com/document/d/18SjNQ2d_wssHroKQVExRsthTL1oRNCYpPPjeA7VuYM0/edit?usp=drive_link))
-  
-- [Full Project (PDF)] ([link-to-pdf-file](https://drive.google.com/file/d/1-CGBcjV4FzMYs8P8v9i_6eh6eWJlJLLv/view?usp=drive_link))
+* Data preparation and modelling
+* KPI analysis
+* Executive dashboards
+* Natural-language analytics
+* Scenario-based analysis
+* Data storytelling
+* Strategic recommendations
 
-These files contain the full analysis, dashboards, scenario exploration, and data story with actionable recommendations.
+The objective was not simply to report historical performance, but to investigate where improvement opportunities existed and how successful practices could potentially be replicated while maintaining financial discipline.
 
-🧭 Decision Intelligence Context
+> **Decision focus:** How can student evaluation outcomes and teaching performance be improved without increasing course delivery costs?
 
-This project was designed to address a core decision failure within Career4All’s coaching operations:  
-Career coaches lacked a scalable, consistent, and objective way to assess skill gaps and prioritise training recommendations across a growing learner base.
+---
 
-Before this system, coaching decisions relied heavily on manual review, individual judgment, and fragmented training references, resulting in variability in outcomes, lengthy turnaround times, and limited scalability.
+# Business Challenge
 
-The Career4All Coaching Application reframes career coaching as a decision intelligence problem — transforming unstructured documents into actionable insights that support faster, more consistent, and auditable coaching decisions.
+Higher education institutions must balance teaching quality, student experience, and financial sustainability.
 
+While operational data may be available, historical reporting alone does not necessarily tell leadership:
 
-🎯 Business Problem
+* Which professors consistently demonstrate strong evaluation performance
+* Which courses combine strong evaluation outcomes with relatively low costs
+* Where recent improvements have occurred
+* Which successful practices may be worth investigating for replication
+* Where limited resources could potentially generate greater value
 
-Community colleges face the dual challenge of:
+This project addresses that decision challenge by bringing performance and cost indicators into a unified Business Intelligence framework.
 
-Improving professor performance evaluations.
+---
 
-Maintaining or reducing course delivery costs.
+# Decision Objective
 
-This project examines the impact of faculty, courses, and institutional improvements on student satisfaction, offering insights into scaling high-performing, low-cost teaching strategies.
+The analysis was designed to help leadership:
 
-🎯 Design Principles & Trade-offs
+1. Identify patterns associated with stronger professor and course evaluation outcomes.
+2. Examine changes in evaluation performance over time.
+3. Investigate course-level improvements contributing to stronger performance.
+4. Identify courses demonstrating strong evaluation outcomes alongside relatively low delivery costs.
+5. Develop evidence-based recommendations for improving outcomes while maintaining financial discipline.
 
-Key design decisions were made to prioritise scalability, security, and coaching consistency over bespoke, one-off analysis:
+---
 
-• No-code architecture was selected to reduce operational dependency on engineering teams.  
-• Centralised catalogues were used to enforce training consistency across coaches.  
-• Human-in-the-loop refinement was preserved to balance automation with professional judgement.  
+# Solution
 
-These trade-offs ensured the system could scale organisationally without sacrificing coaching quality.
+An AWS QuickSight Business Intelligence environment was developed to connect analytical exploration with executive decision-making.
 
-📂 Deliverables
+The solution incorporated:
 
-The project includes the following components:
+**Data → Analysis → Dashboard → Scenario → Recommendation**
 
-Datasets: Field preparation, calculated fields (e.g., Student Type), and refresh schedules.
+The workflow moved progressively from descriptive analysis toward decision-oriented investigation.
 
-Analyses: Multiple visuals exploring enrollment trends, course evaluations, and cost-performance dynamics.
+### Analytical workflow
 
-Dashboards: An interactive Student Enrollment Dashboard with clear labelling and business-oriented visuals.
+```text
+Data Preparation
+       ↓
+Calculated Fields & Modelling
+       ↓
+Performance Analysis
+       ↓
+Executive Dashboards
+       ↓
+Natural-Language Analytics
+       ↓
+Scenario Analysis
+       ↓
+Data Storytelling
+       ↓
+Strategic Recommendations
+```
 
-Topics & Verified Answers: Natural language queries with validated responses across students, professors, and courses.
+This structure demonstrates how a BI solution can move beyond reporting toward structured decision support.
 
-Scenario Analysis: A multi-step reasoning path answering: “How do we improve professor evaluations while avoiding an increase in cost per course?”
+---
 
-Data Story: A polished narrative that integrates dashboard visuals and custom text, culminating in strategic recommendations for decision-makers.
+# Executive Dashboard Solution
 
-📈 Business Impact & Outcomes
+Four dashboards were developed to provide complementary views of institutional performance.
 
-• Reduced manual skill-gap analysis time from hours to seconds (>90% efficiency gain).  
-• Improved consistency of training recommendations across coaches.  
-• Enabled secure scaling of coaching operations without proportional headcount growth.  
-• Ensured training recommendations remain current through automated data synchronisation.
+## 1. Executive Performance Overview
 
-🛠️ Skills Demonstrated
+Provides leadership with a consolidated view of enrollment, professor evaluation performance, course evaluations, and cost-related indicators.
 
-Data Modelling & Transformation: Created custom calculated fields to enrich analysis (e.g., distinguishing between youth and adult continuing education students).
+**Business purpose:** Enable rapid identification of performance patterns, gaps, and areas requiring further investigation.
 
-BI Visualisation: Designed impactful visuals with appropriate chart types, clear labelling, and strong alignment to business objectives.
+![Executive Performance Overview](screenshots/executive-performance-overview.png)
 
-Scenario-Based Analysis: Developed a structured thread of questions progressing from broad factors to targeted insights.
+---
 
-Data Storytelling: Built a professional, boardroom-ready report combining narrative with analytics.
+## 2. Professor Performance Analysis
 
-Dashboard Design: Balanced usability, clarity, and depth for decision-makers.
+Examines evaluation performance across professors to identify consistently strong performers and areas where further investigation may be valuable.
 
-Cloud BI Tooling: Hands-on application of AWS QuickSight for end-to-end BI project execution.
+**Business purpose:** Support evidence-based faculty development and investigation of practices associated with stronger evaluation outcomes.
 
+![Professor Performance Analysis](screenshots/professor-performance-analysis.png)
 
-📌 Key Insights & Recommendations
+---
 
-High evaluation scores are strongly linked to specific teaching practices and course improvements (notably Accounting and Statistics in 2022).
+## 3. Course Performance & Cost Efficiency
 
-Cost-effective excellence was demonstrated in courses like Data Visualisation, proving that quality does not always require high resource expenditure.
+Brings course evaluation performance and course delivery cost into the same decision context.
 
-To maximise impact, the college should:
+**Business purpose:** Help leadership identify courses that demonstrate strong evaluation outcomes alongside relatively efficient delivery costs.
 
-Replicate teaching practices of consistently high-rated professors.
+![Course Performance & Cost Efficiency](screenshots/course-performance-cost-efficiency.png)
 
-Scale up courses with strong evaluations and low delivery costs.
+---
 
-Continue monitoring course-level improvements to sustain long-term satisfaction gains.
+## 4. Student Demographics & Enrollment Trends
 
+Examines student composition and enrollment patterns across the available periods.
 
-🏆 Final Deliverables
+**Business purpose:** Provide visibility into participation patterns and support broader institutional planning.
 
-This project package includes:
+![Student Demographics & Enrollment Trends](screenshots/student-demographics-enrollment-trends.png)
 
-Datasets
+---
 
-Analyses
+# Key Business Insights
 
-Dashboards
+The analysis produced several findings with direct relevance to institutional decision-making.
 
-Topics
+### 1. High-Performing Professors Represent a Replication Opportunity
 
-Scenarios
+Consistently strong professor evaluation performance provides an opportunity to investigate the teaching practices associated with higher evaluation outcomes and assess whether these practices can be replicated across departments.
 
-Complete Data Story
+### 2. 2022 Performance Improvement Provides a Replication Opportunity
 
-All elements are clearly labelled and aligned with business objectives to demonstrate professional BI engineering practices.
+Evaluation performance improved in 2022 compared with previous periods. This creates an opportunity to investigate the institutional, course-level, and teaching factors associated with the improvement.
 
+### 3. Course-Level Improvements Can Create Institutional-Level Impact
 
-✨ This project highlights my ability to transform raw data into actionable insights and strategic business recommendations 
+The analysis highlighted improvements in **Accounting and Statistics** as important contributors to the overall increase in evaluation performance during 2022.
 
+This demonstrates how targeted course-level improvements can contribute to broader institutional performance.
 
-🧠 Executive Takeaways
+### 4. Strong Evaluation Outcomes Do Not Necessarily Require Higher Cost
 
-This project demonstrates how AI-powered decision intelligence can be operationalised within real-world organisational constraints — balancing automation, governance, and human expertise.
+Several courses demonstrated strong evaluation outcomes while maintaining relatively low delivery costs.
 
-The Career4All Coaching App serves as a repeatable blueprint for applying AI to professional services, workforce development, and knowledge-intensive decision processes.
-using modern BI tools.
+This suggests that educational quality and financial efficiency do not necessarily require proportional increases in expenditure.
+
+### 5. Data Visualisation Provides a Cost-Effective Excellence Example
+
+The **Data Visualisation** course emerged as an example of strong evaluation performance alongside relatively low cost.
+
+This creates an opportunity for deeper investigation into the practices associated with the outcome and whether similar approaches could be transferable elsewhere.
+
+---
+
+# Scenario-Based Decision Analysis
+
+A structured analytical scenario was developed around the central decision question:
+
+> **How can professor performance and student evaluation outcomes be improved without increasing cost per course?**
+
+The analytical thread progressed from broad performance investigation toward specific course-level opportunities:
+
+1. What factors contribute to high professor evaluation scores?
+2. What factors contributed to higher evaluation scores in 2022?
+3. How did Accounting and Statistics improvements contribute to the 2022 increase?
+4. Which courses achieve strong evaluation outcomes while maintaining relatively low costs?
+5. What factors explain the strong performance of Data Visualisation despite its low cost?
+6. What actions could improve student evaluation outcomes while maintaining cost discipline?
+
+This progression demonstrates a structured approach to moving from **observation → investigation → comparison → decision**.
+
+---
+
+# Strategic Recommendations
+
+Based on the analysis, the project recommends that leadership:
+
+### Replicate High-Performing Teaching Practices
+
+Investigate the practices associated with consistently strong professor evaluation performance and develop mechanisms for sharing successful approaches across departments.
+
+### Prioritise High-Value, Cost-Efficient Courses
+
+Evaluate course performance alongside delivery costs to identify areas demonstrating a strong combination of evaluation outcomes and financial efficiency.
+
+### Use 2022 as a Performance Benchmark
+
+Investigate the factors associated with the 2022 improvement, particularly within Accounting and Statistics, and determine which practices can be sustained or replicated.
+
+### Investigate Cost-Effective Excellence
+
+Use Data Visualisation as a case for deeper investigation into how strong evaluation outcomes were achieved alongside relatively low cost.
+
+### Institutionalise Executive Performance Monitoring
+
+Maintain consistent KPI monitoring across professor evaluations, course performance, enrollment patterns, and cost efficiency to support continuous evidence-based decision-making.
+
+---
+
+# Business Intelligence Capabilities Demonstrated
+
+## Data Preparation & Modelling
+
+* Dataset field configuration
+* Data preparation
+* Calculated fields
+* Student segmentation
+* Dataset refresh configuration
+
+## Analytical Development
+
+* Enrollment analysis
+* Professor performance analysis
+* Course evaluation analysis
+* Course cost analysis
+* Trend analysis
+* Comparative performance analysis
+
+## Dashboard Development
+
+* Executive KPI dashboards
+* Performance visualisation
+* Cost-efficiency analysis
+* Interactive analytical views
+* Business-oriented visual design
+
+## Advanced QuickSight Capabilities
+
+* QuickSight Topics
+* Named entities
+* Verified answers
+* Natural-language analytics
+* Scenario analysis
+* Data Story
+
+## Business Communication
+
+* Executive interpretation
+* Strategic recommendations
+* Decision-oriented storytelling
+* Business-focused data visualisation
+
+---
+
+# Technical Approach
+
+The project was implemented within **AWS QuickSight** and followed a structured BI workflow.
+
+### Data Layer
+
+The analytical dataset incorporated student, course, professor, evaluation, enrollment, and cost information.
+
+A calculated **Student Type** field was created to distinguish:
+
+* Youth students
+* Adult Continuing Education students
+
+using an age-based business rule.
+
+### Analytical Layer
+
+Multiple analyses were developed to investigate:
+
+* Student majors by year
+* Student type distribution
+* Professor evaluation performance
+* Course evaluation performance
+* Average course cost by professor
+* Average course cost by course
+
+### Decision Layer
+
+QuickSight Topics, verified answers, and scenario analysis were used to extend the analytical workflow beyond static visualisation toward natural-language exploration and structured decision analysis.
+
+### Communication Layer
+
+The final outputs were consolidated into executive dashboards and a Data Story designed to communicate analytical findings and recommendations to business stakeholders.
+
+---
+
+# Technology Stack
+
+**AWS QuickSight**
+**Business Intelligence**
+**Data Modelling & Transformation**
+**Calculated Fields**
+**KPI Analysis**
+**Dashboard Development**
+**Natural-Language Analytics**
+**Scenario Analysis**
+**Data Storytelling**
+
+---
+
+# Project Structure
+
+```text
+student-satisfaction-decision-intelligence/
+│
+├── README.md
+│
+├── docs/
+│   └── AWS_QuickSight_Business_Intelligence_Case_Study.pdf
+│
+└── screenshots/
+    ├── executive-performance-overview.png
+    ├── professor-performance-analysis.png
+    ├── course-performance-cost-efficiency.png
+    └── student-demographics-enrollment-trends.png
+```
+
+---
+
+# Documentation
+
+## Executive Case Study
+
+The full executive case study is presented through the accompanying Notion portfolio page, providing the business narrative, decision context, analytical findings, recommendations, and executive interpretation.
+
+**→ View the Executive Case Study**
+
+## Detailed Project Report
+
+The detailed technical report documents the original project workflow, including:
+
+* Dataset configuration
+* Calculated fields
+* Analytical visuals
+* QuickSight Topics
+* Verified answers
+* Dashboard development
+* Scenario analysis
+* Data Story
+* Created QuickSight resources
+
+**→ View Detailed Project Report**
+
+---
+
+# Project Status
+
+**Completed**
+
+This project represents a completed Business Intelligence case study demonstrating the application of AWS QuickSight to a decision-oriented analytical problem.
+
+The original analytical work was developed as a Business Intelligence Engineer project and has subsequently been structured as a professional case study to emphasise business context, decision-making, analytical reasoning, and executive communication.
+
+---
+
+# Author
+
+## Dr. Lamia Ghozy
+
+**Senior Business Intelligence Analyst | Commercial Analytics | Healthcare Analytics | Decision Intelligence**
+
+Business Intelligence professional with extensive experience across healthcare, pharmaceuticals, commercial analytics, executive reporting, and data-driven decision support.
+
+**LinkedIn:** [Dr. Lamia Ghozy](https://www.linkedin.com/in/dr-lamia-ghozy-dba-mba-ci-nlp)
+
+**Portfolio:** [Notion Executive Portfolio]
+
+---
+
+> **The objective of Business Intelligence is not simply to produce reports. It is to turn data into evidence that improves decisions.**
